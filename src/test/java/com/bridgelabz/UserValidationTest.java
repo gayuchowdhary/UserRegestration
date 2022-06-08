@@ -27,7 +27,12 @@ public class UserValidationTest {
         Assert.assertTrue(isValid);
     }
 
-
+    @Test
+    public void givenMobile_WhenProper_ShouldReturnTrue() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateMobile("91 9959043687");
+        Assert.assertTrue(isValid);
+    }
 }
 
 

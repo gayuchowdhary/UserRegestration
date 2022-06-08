@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428bb6d8-5253-4b77-9fe1-0269033a9570" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,22 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue">
-    <configuration name="UserValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegestration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.UserRegestration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.UserRegestration" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegestration.UserValidationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue">
     <configuration name="UserValidationTestTest.givenFirstName_WhenValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegestration.test" />
       <extension name="coverage">
@@ -157,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegestration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserValidationTest" />
+      <option name="METHOD_NAME" value="givenMobile_WhenProper_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenLastName_WhenValid_ShouldReturnTure" />
         <item itemvalue="JUnit.UserValidationTest.givenFirstName_WhenValid_ShouldReturnTrue (1)" />
         <item itemvalue="JUnit.UserValidationTestTest.givenFirstName_WhenValid_ShouldReturnTrue" />
-        <item itemvalue="JUnit.UserValidationTest" />
       </list>
     </recent_temporary>
   </component>

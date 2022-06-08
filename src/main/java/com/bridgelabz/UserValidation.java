@@ -12,6 +12,9 @@ public class UserValidation {
     public boolean validateEmail(String email) {
         return Pattern.matches("^[a-z]+([+-.]?[a-z0-9])*[@][0-9a-z]+([.][a-z]{2,3}){1,2}$",email);
     }
+    public boolean validateMobile(String mobile) {
+        return Pattern.matches("^(91)[\\s][0-9]{10}$", mobile);
+    }
 }
 
 
