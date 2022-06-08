@@ -42,7 +42,12 @@ public class UserValidationTest {
         boolean Result = true;
         Assert.assertEquals(true,Result);
     }
-
+    @Test
+    public void givenEmail_WhenInValid_ShouldReturnFalse() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateEmail("abc##*@gmail.com");
+        Assert.assertFalse(isValid);
+    }
 }
 
 
