@@ -33,7 +33,14 @@ public class UserValidationTest {
         boolean isValid = user.validateMobile("91 9959043687");
         Assert.assertTrue(isValid);
     }
+    @Test
+    public void givenPassword_WhenValid_ShouldReturnTrue() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validatePassword("Bestin@9");
+        Assert.assertTrue(isValid);
+    }
 }
+
 
 
 

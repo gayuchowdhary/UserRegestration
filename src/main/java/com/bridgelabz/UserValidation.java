@@ -15,6 +15,9 @@ public class UserValidation {
     public boolean validateMobile(String mobile) {
         return Pattern.matches("^(91)[\\s][0-9]{10}$", mobile);
     }
+    public boolean validatePassword(String password) {
+        return Pattern.matches("[a-zA-Z0-9@#$%^&-+=()]{8,}", password);
+    }
 }
 
 

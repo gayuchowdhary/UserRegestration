@@ -75,23 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue">
-    <configuration name="UserValidationTestTest.givenFirstName_WhenValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegestration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.UserRegestration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.UserRegestration" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegestration.UserValidationTestTest" />
-      <option name="METHOD_NAME" value="givenFirstName_WhenValid_ShouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserValidationTest.givenPassword_WhenValid_ShouldReturnTrue">
     <configuration name="UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegestration.test" />
       <extension name="coverage">
@@ -156,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserValidationTest.givenPassword_WhenValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegestration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserValidationTest" />
+      <option name="METHOD_NAME" value="givenPassword_WhenValid_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserValidationTest.givenPassword_WhenValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenLastName_WhenValid_ShouldReturnTure" />
         <item itemvalue="JUnit.UserValidationTest.givenFirstName_WhenValid_ShouldReturnTrue (1)" />
-        <item itemvalue="JUnit.UserValidationTestTest.givenFirstName_WhenValid_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
