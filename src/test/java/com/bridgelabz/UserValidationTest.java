@@ -20,6 +20,13 @@ public class UserValidationTest {
         boolean result = true;
         Assert.assertEquals(true, result);
     }
+    @Test
+    public void givenEmail_WhenValid_ShouldReturnTrue() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateEmail("gayuchowdhary51@gmail.com");
+        Assert.assertTrue(isValid);
+    }
+
 
 }
 
