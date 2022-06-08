@@ -20,6 +20,7 @@ public class UserValidationTest {
         boolean result = true;
         Assert.assertEquals(true, result);
     }
+
     @Test
     public void givenEmail_WhenValid_ShouldReturnTrue() {
         UserValidation user = new UserValidation();
@@ -33,13 +34,16 @@ public class UserValidationTest {
         boolean isValid = user.validateMobile("91 9959043687");
         Assert.assertTrue(isValid);
     }
+
     @Test
     public void givenPassword_WhenValid_ShouldReturnTrue() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validatePassword("Bestin@9");
+        boolean isValid = user.validatePassword("Gadyuu@5");
         Assert.assertTrue(isValid);
     }
+
 }
+
 
 
 
