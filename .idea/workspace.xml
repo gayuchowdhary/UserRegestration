@@ -76,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue">
+  <component name="RunManager" selected="JUnit.UserValidationTest.givenPassword_WhenValid_ShouldReturnTrue">
     <configuration name="UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegestration.test" />
       <extension name="coverage">
@@ -159,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenPassword_WhenValid_ShouldReturnTrue" />
+        <item itemvalue="JUnit.UserValidationTest.givenMobile_WhenProper_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenPassword_WhenCapValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenEmail_WhenValid_ShouldReturnTrue" />
         <item itemvalue="JUnit.UserValidationTest.givenLastName_WhenValid_ShouldReturnTure" />

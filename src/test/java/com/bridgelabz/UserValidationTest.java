@@ -38,8 +38,9 @@ public class UserValidationTest {
     @Test
     public void givenPassword_WhenValid_ShouldReturnTrue() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validatePassword("Gadyuu@5");
-        Assert.assertTrue(isValid);
+        boolean isValid = user.validatePassword("Gayu8u@5");
+        boolean Result = true;
+        Assert.assertEquals(true,Result);
     }
 
 }
