@@ -48,8 +48,35 @@ public class UserValidationTest {
         boolean isValid = user.validateEmail("abc##*@gmail.com");
         Assert.assertFalse(isValid);
     }
-}
+    @Test
+    public void givenFirstName_WhenInValid_ShouldReturnFalse() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateFirstName("JuLin");
 
+        Assert.assertFalse(isValid);
+    }
+
+    @Test
+    public void givenLastName_WhenInValid_ShouldReturnFalse() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateLastName("bestinA");
+        Assert.assertFalse(isValid);
+    }
+
+
+    @Test
+    public void givenMobile_WhenImProper_ShouldReturnFalse() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateMobile("91968645231");
+        Assert.assertFalse(isValid);
+    }
+    @Test
+    public void givenPassword_WhenInValid_ShouldReturnFalse() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validatePassword("shadow6");
+        Assert.assertFalse(isValid);
+    }
+}
 
 
 
