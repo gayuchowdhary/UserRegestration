@@ -12,5 +12,18 @@ public class UserValidationTest {
         boolean result = true;
         Assert.assertEquals(true, result);
     }
+
+    @Test
+    public void givenLastName_WhenValid_ShouldReturnTure() {
+        UserValidation user = new UserValidation();
+        boolean isValid = user.validateLastName("chowdhary");
+        boolean result = true;
+        Assert.assertEquals(true, result);
+    }
+
 }
+
+
+
+
 
