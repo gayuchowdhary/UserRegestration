@@ -183,8 +183,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/UserValidationTest.java</url>
-          <line>38</line>
-          <properties class="com.bridgelabz.UserValidationTest" method="givenPassword_WhenValid_ShouldReturnTrue">
+          <line>79</line>
+          <properties class="com.bridgelabz.UserValidationTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

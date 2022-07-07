@@ -51,7 +51,7 @@ public class UserValidationTest {
     @Test
     public void givenFirstName_WhenInValid_ShouldReturnFalse() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validateFirstName("JuLin");
+        boolean isValid = user.validateFirstName("GaYu");
 
         Assert.assertFalse(isValid);
     }
@@ -59,7 +59,7 @@ public class UserValidationTest {
     @Test
     public void givenLastName_WhenInValid_ShouldReturnFalse() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validateLastName("bestinA");
+        boolean isValid = user.validateLastName("gayuA");
         Assert.assertFalse(isValid);
     }
 
@@ -67,13 +67,13 @@ public class UserValidationTest {
     @Test
     public void givenMobile_WhenImProper_ShouldReturnFalse() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validateMobile("91968645231");
+        boolean isValid = user.validateMobile("9876454321");
         Assert.assertFalse(isValid);
     }
     @Test
     public void givenPassword_WhenInValid_ShouldReturnFalse() {
         UserValidation user = new UserValidation();
-        boolean isValid = user.validatePassword("shadow6");
+        boolean isValid = user.validatePassword("Gayu6");
         Assert.assertFalse(isValid);
     }
 }
